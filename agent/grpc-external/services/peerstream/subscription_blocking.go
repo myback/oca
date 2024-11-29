@@ -11,10 +11,10 @@ import (
 
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib/retry"
-	"github.com/hashicorp/consul/proto/private/pbservice"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib/retry"
+	"github.com/myback/oca/proto/private/pbservice"
 )
 
 // This file contains direct state store functions that need additional

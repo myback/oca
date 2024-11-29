@@ -9,10 +9,10 @@ import (
 
 	"github.com/hashicorp/serf/serf"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/types"
 )
 
 // aclAccessorID is used to convert an ACLToken's secretID to its accessorID for non-

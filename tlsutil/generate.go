@@ -20,7 +20,7 @@ import (
 
 	"net/url"
 
-	"github.com/hashicorp/consul/agent/connect"
+	"github.com/myback/oca/agent/connect"
 )
 
 // GenerateSerialNumber returns random bigint generated with crypto/rand

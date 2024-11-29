@@ -9,7 +9,7 @@ package pbservice
 import (
 	fuzz "github.com/google/gofuzz"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/myback/oca/acl"
 )
 
 func randEnterpriseMeta(_ *acl.EnterpriseMeta, _ fuzz.Continue) {

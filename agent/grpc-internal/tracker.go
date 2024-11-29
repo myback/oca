@@ -9,10 +9,10 @@ import (
 
 	gresolver "google.golang.org/grpc/resolver"
 
-	"github.com/hashicorp/consul/agent/grpc-internal/balancer"
-	"github.com/hashicorp/consul/agent/grpc-internal/resolver"
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/agent/grpc-internal/balancer"
+	"github.com/myback/oca/agent/grpc-internal/resolver"
+	"github.com/myback/oca/agent/metadata"
+	"github.com/myback/oca/types"
 )
 
 // NewTracker returns an implementation of the router.ServerTracker interface

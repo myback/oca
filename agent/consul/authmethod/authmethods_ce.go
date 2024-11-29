@@ -9,7 +9,7 @@ package authmethod
 import (
 	"sync"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/structs"
 )
 
 type syncCache struct {

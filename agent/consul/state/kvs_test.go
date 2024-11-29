@@ -13,7 +13,7 @@ import (
 
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/structs"
 )
 
 func TestStateStore_ReapTombstones(t *testing.T) {

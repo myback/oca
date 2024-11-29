@@ -12,8 +12,8 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/version"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/version"
 )
 
 // InlineCertificateConfigEntry manages the configuration for an inline certificate

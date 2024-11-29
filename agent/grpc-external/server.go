@@ -13,9 +13,9 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/hashicorp/consul/agent/consul/rate"
-	agentmiddleware "github.com/hashicorp/consul/agent/grpc-middleware"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/myback/oca/agent/consul/rate"
+	agentmiddleware "github.com/myback/oca/agent/grpc-middleware"
+	"github.com/myback/oca/tlsutil"
 )
 
 var (

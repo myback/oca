@@ -9,11 +9,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/acl/token"
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/command/helpers"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/command/acl/token"
+	"github.com/myback/oca/command/flags"
+	"github.com/myback/oca/command/helpers"
 )
 
 func New(ui cli.Ui) *cmd {

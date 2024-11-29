@@ -15,11 +15,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/xds/testcommon"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/agent/proxycfg"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/xds/testcommon"
+	"github.com/myback/oca/envoyextensions/xdscommon"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 type routeTestCase struct {

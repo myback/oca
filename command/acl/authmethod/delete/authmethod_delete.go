@@ -7,8 +7,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/hashicorp/consul/command/flags"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/command/flags"
 )
 
 func New(ui cli.Ui) *cmd {

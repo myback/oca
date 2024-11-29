@@ -17,12 +17,12 @@ import (
 
 	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/token"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 var testACLPolicy = `

@@ -9,8 +9,8 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/agent/structs"
 )
 
 func TestMaintCommand_noTabs(t *testing.T) {

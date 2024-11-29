@@ -11,12 +11,12 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/leafcert"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib/retry"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/leafcert"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib/retry"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 type fakeStore struct {

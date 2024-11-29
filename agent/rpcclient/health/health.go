@@ -6,13 +6,13 @@ package health
 import (
 	"context"
 
-	"github.com/hashicorp/consul/agent/rpcclient"
+	"github.com/myback/oca/agent/rpcclient"
 	"google.golang.org/grpc/connectivity"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/submatview"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/submatview"
+	"github.com/myback/oca/proto/private/pbsubscribe"
 )
 
 // Client provides access to service health data.

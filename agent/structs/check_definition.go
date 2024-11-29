@@ -6,11 +6,11 @@ package structs
 import (
 	"time"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/myback/oca/acl"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/types"
 )
 
 // CheckDefinition is used to JSON decode the Check definitions

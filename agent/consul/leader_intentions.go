@@ -8,8 +8,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/logging"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/logging"
 )
 
 const (

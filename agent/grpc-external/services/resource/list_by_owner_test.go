@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/internal/resource/demo"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/internal/resource/demo"
+	"github.com/myback/oca/proto-public/pbresource"
+	"github.com/myback/oca/proto/private/prototest"
 
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

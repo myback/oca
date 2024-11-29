@@ -9,15 +9,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/discoverychain"
-	"github.com/hashicorp/consul/agent/proxycfg/internal/watch"
-	"github.com/hashicorp/consul/agent/structs"
-	config "github.com/hashicorp/consul/agent/xds/config"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
 	"github.com/hashicorp/go-hclog"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul/discoverychain"
+	"github.com/myback/oca/agent/proxycfg/internal/watch"
+	"github.com/myback/oca/agent/structs"
+	config "github.com/myback/oca/agent/xds/config"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/proto/private/pbpeering"
 )
 
 // TODO(ingress): Can we think of a better for this bag of data?

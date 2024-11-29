@@ -12,12 +12,12 @@ import (
 	goretry "github.com/avast/retry-go"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	libcluster "github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	libservice "github.com/hashicorp/consul/test/integration/consul-container/libs/service"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/topology"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/sdk/testutil/retry"
+	libcluster "github.com/myback/oca/test/integration/consul-container/libs/cluster"
+	libservice "github.com/myback/oca/test/integration/consul-container/libs/service"
+	"github.com/myback/oca/test/integration/consul-container/libs/topology"
+	"github.com/myback/oca/test/integration/consul-container/libs/utils"
 )
 
 type testcase struct {

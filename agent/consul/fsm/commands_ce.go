@@ -10,10 +10,10 @@ import (
 	"github.com/armon/go-metrics"
 	"github.com/armon/go-metrics/prometheus"
 
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/proto/private/pbpeering"
 )
 
 var CommandsSummaries = []prometheus.SummaryDefinition{

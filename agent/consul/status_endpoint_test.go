@@ -14,10 +14,10 @@ import (
 	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
 	"github.com/hashicorp/consul-net-rpc/net/rpc"
 
-	"github.com/hashicorp/consul/agent/pool"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/myback/oca/agent/pool"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/testrpc"
+	"github.com/myback/oca/tlsutil"
 )
 
 func rpcClient(t *testing.T, s *Server) rpc.ClientCodec {

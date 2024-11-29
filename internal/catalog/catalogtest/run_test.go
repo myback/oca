@@ -3,13 +3,13 @@ package catalogtest
 import (
 	"testing"
 
-	svctest "github.com/hashicorp/consul/agent/grpc-external/services/resource/testing"
-	"github.com/hashicorp/consul/internal/catalog"
-	"github.com/hashicorp/consul/internal/catalog/internal/controllers"
-	"github.com/hashicorp/consul/internal/controller"
-	"github.com/hashicorp/consul/internal/resource/reaper"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/sdk/testutil"
+	svctest "github.com/myback/oca/agent/grpc-external/services/resource/testing"
+	"github.com/myback/oca/internal/catalog"
+	"github.com/myback/oca/internal/catalog/internal/controllers"
+	"github.com/myback/oca/internal/controller"
+	"github.com/myback/oca/internal/resource/reaper"
+	"github.com/myback/oca/proto-public/pbresource"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 func runInMemResourceServiceAndControllers(t *testing.T, deps controllers.Dependencies) pbresource.ResourceServiceClient {

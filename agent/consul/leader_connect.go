@@ -12,9 +12,9 @@ import (
 
 	"github.com/hashicorp/go-version"
 
-	"github.com/hashicorp/consul/agent/consul/gateways"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/logging"
+	"github.com/myback/oca/agent/consul/gateways"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/logging"
 )
 
 const (

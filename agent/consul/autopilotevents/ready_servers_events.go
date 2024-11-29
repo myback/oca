@@ -14,11 +14,11 @@ import (
 	"github.com/hashicorp/go-memdb"
 	autopilot "github.com/hashicorp/raft-autopilot"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto/private/pbsubscribe"
+	"github.com/myback/oca/types"
 )
 
 const (

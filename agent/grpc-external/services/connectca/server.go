@@ -13,11 +13,11 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto-public/pbconnectca"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto-public/pbconnectca"
 )
 
 type Server struct {

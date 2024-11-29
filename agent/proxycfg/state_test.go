@@ -14,16 +14,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/time/rate"
 
-	"github.com/hashicorp/consul/acl"
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/consul/discoverychain"
-	"github.com/hashicorp/consul/agent/leafcert"
-	"github.com/hashicorp/consul/agent/structs"
-	apimod "github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
-	"github.com/hashicorp/consul/proto/private/prototest"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/acl"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/configentry"
+	"github.com/myback/oca/agent/consul/discoverychain"
+	"github.com/myback/oca/agent/leafcert"
+	"github.com/myback/oca/agent/structs"
+	apimod "github.com/myback/oca/api"
+	"github.com/myback/oca/proto/private/pbpeering"
+	"github.com/myback/oca/proto/private/prototest"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 func TestStateChanged(t *testing.T) {

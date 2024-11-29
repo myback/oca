@@ -21,12 +21,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/connect"
-	hcpclient "github.com/hashicorp/consul/agent/hcp/client"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/lib/retry"
 	"github.com/hashicorp/go-uuid"
+	"github.com/myback/oca/agent/config"
+	"github.com/myback/oca/agent/connect"
+	hcpclient "github.com/myback/oca/agent/hcp/client"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/lib/retry"
 )
 
 const (

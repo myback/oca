@@ -9,9 +9,9 @@ import (
 	envoy_listener_v3 "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/api"
-	ext_cmn "github.com/hashicorp/consul/envoyextensions/extensioncommon"
 	"github.com/hashicorp/go-multierror"
+	"github.com/myback/oca/api"
+	ext_cmn "github.com/myback/oca/envoyextensions/extensioncommon"
 )
 
 type extAuthz struct {

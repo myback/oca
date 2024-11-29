@@ -6,8 +6,8 @@ package local
 import (
 	"testing"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/token"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/token"
 	"github.com/stretchr/testify/require"
 )
 

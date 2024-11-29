@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pbservice"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto/private/pbservice"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 func TestSubscriptionState_Events(t *testing.T) {

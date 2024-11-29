@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/agent/structs"
 )
 
 func TestCARootsEvents(t *testing.T) {

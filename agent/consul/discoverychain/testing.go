@@ -7,8 +7,8 @@ import (
 	"github.com/mitchellh/go-testing-interface"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/configentry"
+	"github.com/myback/oca/agent/structs"
 )
 
 func TestCompileConfigEntries(t testing.T,

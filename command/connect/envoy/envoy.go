@@ -20,16 +20,16 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/xds"
-	"github.com/hashicorp/consul/agent/xds/accesslogs"
-	"github.com/hashicorp/consul/api"
-	proxyCmd "github.com/hashicorp/consul/command/connect/proxy"
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/ipaddr"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/xds"
+	"github.com/myback/oca/agent/xds/accesslogs"
+	"github.com/myback/oca/api"
+	proxyCmd "github.com/myback/oca/command/connect/proxy"
+	"github.com/myback/oca/command/flags"
+	"github.com/myback/oca/envoyextensions/xdscommon"
+	"github.com/myback/oca/ipaddr"
+	"github.com/myback/oca/tlsutil"
 )
 
 func New(ui cli.Ui) *cmd {

@@ -18,16 +18,16 @@ import (
 	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
 	"github.com/hashicorp/consul-net-rpc/net/rpc"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/lib/stringslice"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/lib/stringslice"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/sdk/testutil/retry"
+	"github.com/myback/oca/testrpc"
+	"github.com/myback/oca/types"
 )
 
 func TestCatalog_Register(t *testing.T) {

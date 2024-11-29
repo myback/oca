@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/sdk/testutil"
 	"github.com/hashicorp/raft"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/sdk/testutil"
 	"github.com/stretchr/testify/require"
 )
 

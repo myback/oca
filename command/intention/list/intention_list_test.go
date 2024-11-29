@@ -10,9 +10,9 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 func TestIntentionListCommand_noTabs(t *testing.T) {

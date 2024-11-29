@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/types"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-uuid"
+	"github.com/myback/oca/agent/config"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/types"
 	"github.com/stretchr/testify/require"
 )
 

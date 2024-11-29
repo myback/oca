@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/local"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/token"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/local"
+	"github.com/myback/oca/agent/proxycfg"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/token"
 )
 
 func TestServerHTTPChecks(t *testing.T) {

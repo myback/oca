@@ -19,11 +19,11 @@ import (
 
 	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/envoyextensions"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/lib/decode"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/envoyextensions"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/lib/decode"
 )
 
 const (

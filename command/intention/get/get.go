@@ -11,9 +11,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/command/intention"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/command/flags"
+	"github.com/myback/oca/command/intention"
 	"github.com/ryanuber/columnize"
 )
 

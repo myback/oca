@@ -6,7 +6,7 @@
 
 package consul
 
-import libserf "github.com/hashicorp/consul/lib/serf"
+import libserf "github.com/myback/oca/lib/serf"
 
 func updateSerfTags(s *Server, key, value string) {
 	libserf.UpdateTag(s.serfLAN, key, value)

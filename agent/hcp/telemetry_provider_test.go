@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/hcp/client"
+	"github.com/myback/oca/agent/hcp/client"
 )
 
 const (

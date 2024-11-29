@@ -10,8 +10,8 @@ import (
 
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/internal/storage"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/myback/oca/internal/storage"
+	"github.com/myback/oca/proto-public/pbresource"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/structs"
 )
 
 func prefixIndexFromQuery(arg any) ([]byte, error) {

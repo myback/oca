@@ -28,17 +28,17 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/agent/consul/rate"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/uiserver"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/logging"
-	"github.com/hashicorp/consul/proto/private/pbcommon"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/config"
+	"github.com/myback/oca/agent/consul"
+	"github.com/myback/oca/agent/consul/rate"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/uiserver"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/logging"
+	"github.com/myback/oca/proto/private/pbcommon"
 )
 
 var HTTPSummaries = []prometheus.SummaryDefinition{

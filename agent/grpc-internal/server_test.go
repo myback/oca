@@ -17,11 +17,11 @@ import (
 	"golang.org/x/sync/errgroup"
 	"google.golang.org/grpc"
 
-	"github.com/hashicorp/consul/agent/consul/rate"
-	"github.com/hashicorp/consul/agent/grpc-middleware/testutil/testservice"
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/agent/pool"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/myback/oca/agent/consul/rate"
+	"github.com/myback/oca/agent/grpc-middleware/testutil/testservice"
+	"github.com/myback/oca/agent/metadata"
+	"github.com/myback/oca/agent/pool"
+	"github.com/myback/oca/tlsutil"
 )
 
 type testServer struct {

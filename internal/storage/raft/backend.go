@@ -14,11 +14,11 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/internal/storage"
-	"github.com/hashicorp/consul/internal/storage/inmem"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/myback/oca/internal/storage"
+	"github.com/myback/oca/internal/storage/inmem"
+	"github.com/myback/oca/proto-public/pbresource"
 
-	pbstorage "github.com/hashicorp/consul/proto/private/pbstorage"
+	pbstorage "github.com/myback/oca/proto/private/pbstorage"
 )
 
 // NewBackend returns a storage backend that uses Raft for durable persistence

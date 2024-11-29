@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/api/watch"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/api/watch"
+	"github.com/myback/oca/sdk/testutil"
 	"github.com/stretchr/testify/require"
 )
 

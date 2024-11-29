@@ -10,12 +10,12 @@ import (
 	"github.com/mitchellh/go-testing-interface"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/discoverychain"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul/discoverychain"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/types"
 )
 
 // TestConfigSnapshot returns a fully populated snapshot

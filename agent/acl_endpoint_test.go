@@ -18,12 +18,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/square/go-jose.v2/jwt"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/authmethod/testauth"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/go-sso/oidcauth/oidcauthtest"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/consul/authmethod/testauth"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/internal/go-sso/oidcauth/oidcauthtest"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/testrpc"
 )
 
 // NOTE: The tests contained herein are designed to test the HTTP API

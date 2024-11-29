@@ -10,7 +10,7 @@
 package pbservice
 
 import (
-	pbcommon "github.com/hashicorp/consul/proto/private/pbcommon"
+	pbcommon "github.com/myback/oca/proto/private/pbcommon"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

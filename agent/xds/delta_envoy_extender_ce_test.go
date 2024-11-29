@@ -21,17 +21,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/agent/xds/testcommon"
+	"github.com/myback/oca/agent/xds/testcommon"
 
-	propertyoverride "github.com/hashicorp/consul/agent/envoyextensions/builtin/property-override"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/xds/extensionruntime"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/envoyextensions/extensioncommon"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/version"
+	propertyoverride "github.com/myback/oca/agent/envoyextensions/builtin/property-override"
+	"github.com/myback/oca/agent/proxycfg"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/xds/extensionruntime"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/envoyextensions/extensioncommon"
+	"github.com/myback/oca/envoyextensions/xdscommon"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/version"
 )
 
 func TestEnvoyExtenderWithSnapshot(t *testing.T) {

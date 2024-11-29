@@ -4,9 +4,9 @@
 package agent
 
 import (
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/types"
 )
 
 // persistedCheck is used to serialize a check and write it to disk

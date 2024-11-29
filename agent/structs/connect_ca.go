@@ -8,12 +8,12 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/hashicorp/consul/lib/stringslice"
+	"github.com/myback/oca/lib/stringslice"
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/lib"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/lib"
 )
 
 const (

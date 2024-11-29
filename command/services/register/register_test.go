@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/sdk/testutil"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/sdk/testutil"
 	"github.com/stretchr/testify/require"
 )
 

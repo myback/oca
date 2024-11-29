@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/internal/storage"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/internal/storage"
+	"github.com/myback/oca/proto-public/pbresource"
+	"github.com/myback/oca/proto/private/pbsubscribe"
 )
 
 // Watch implements the storage.Watch interface using a stream.Subscription.

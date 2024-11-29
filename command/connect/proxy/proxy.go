@@ -15,13 +15,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/flags"
-	proxyImpl "github.com/hashicorp/consul/connect/proxy"
 	"github.com/hashicorp/go-hclog"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/command/flags"
+	proxyImpl "github.com/myback/oca/connect/proxy"
 
-	"github.com/hashicorp/consul/logging"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/logging"
 )
 
 func New(ui cli.Ui, shutdownCh <-chan struct{}) *cmd {

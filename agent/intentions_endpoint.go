@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hashicorp/consul/acl"
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/acl"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/consul"
+	"github.com/myback/oca/agent/structs"
 )
 
 // /v1/connect/intentions

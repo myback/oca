@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	hcpclient "github.com/hashicorp/consul/agent/hcp/client"
-	"github.com/hashicorp/consul/agent/hcp/config"
-	"github.com/hashicorp/consul/agent/hcp/scada"
-	"github.com/hashicorp/consul/agent/hcp/telemetry"
 	"github.com/hashicorp/go-hclog"
+	hcpclient "github.com/myback/oca/agent/hcp/client"
+	"github.com/myback/oca/agent/hcp/config"
+	"github.com/myback/oca/agent/hcp/scada"
+	"github.com/myback/oca/agent/hcp/telemetry"
 )
 
 // Deps contains the interfaces that the rest of Consul core depends on for HCP integration.

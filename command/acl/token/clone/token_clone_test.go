@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/testrpc"
 )
 
 func parseCloneOutput(t *testing.T, output string) *api.ACLToken {

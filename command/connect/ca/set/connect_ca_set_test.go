@@ -13,10 +13,10 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/connect/ca"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/agent/connect/ca"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestConnectCASetConfigCommand_noTabs(t *testing.T) {

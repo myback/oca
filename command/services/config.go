@@ -10,9 +10,9 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
+	"github.com/myback/oca/agent/config"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
 )
 
 // ServicesFromFiles returns the list of agent service registration structs

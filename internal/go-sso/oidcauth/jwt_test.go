@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/coreos/go-oidc"
-	"github.com/hashicorp/consul/internal/go-sso/oidcauth/oidcauthtest"
 	"github.com/hashicorp/go-hclog"
+	"github.com/myback/oca/internal/go-sso/oidcauth/oidcauthtest"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/square/go-jose.v2/jwt"
 )

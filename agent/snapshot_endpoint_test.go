@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestSnapshot(t *testing.T) {

@@ -15,10 +15,10 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/proto/private/pbcommon"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/proto/private/pbcommon"
 )
 
 // RequestDatacenter implements structs.RPCInfo

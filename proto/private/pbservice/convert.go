@@ -4,9 +4,9 @@
 package pbservice
 
 import (
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pbcommon"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto/private/pbcommon"
+	"github.com/myback/oca/types"
 )
 
 type CheckIDType = types.CheckID

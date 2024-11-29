@@ -13,8 +13,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 const DefaultCtxDuration = 15 * time.Second

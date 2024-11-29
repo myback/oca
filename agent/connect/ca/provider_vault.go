@@ -18,11 +18,11 @@ import (
 	vaultapi "github.com/hashicorp/vault/api"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/lib/decode"
-	"github.com/hashicorp/consul/lib/retry"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/lib/decode"
+	"github.com/myback/oca/lib/retry"
 )
 
 const (

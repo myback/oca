@@ -10,8 +10,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/structs"
 )
 
 func testIdentityForTokenEnterprise(string) (bool, structs.ACLIdentity, error) {

@@ -15,13 +15,13 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/controller"
-	"github.com/hashicorp/consul/agent/consul/controller/queue"
-	"github.com/hashicorp/consul/agent/consul/fsm"
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/consul/controller"
+	"github.com/myback/oca/agent/consul/controller/queue"
+	"github.com/myback/oca/agent/consul/fsm"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/agent/structs"
 )
 
 func TestBoundAPIGatewayBindRoute(t *testing.T) {

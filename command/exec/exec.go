@@ -17,9 +17,9 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/flags"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/command/flags"
 )
 
 func New(ui cli.Ui, shutdownCh <-chan struct{}) *cmd {

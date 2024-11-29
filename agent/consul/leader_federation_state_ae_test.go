@@ -11,11 +11,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/token"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/sdk/testutil/retry"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestLeader_FederationStateAntiEntropy_FeatureIsStickyEvenIfSerfTagsRegress(t *testing.T) {

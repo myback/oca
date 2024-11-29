@@ -12,10 +12,10 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/config"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/command/config"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 func TestConfigWrite_noTabs(t *testing.T) {

@@ -9,7 +9,7 @@ package state
 import (
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/structs"
 )
 
 type EnterpriseServiceUsage struct{}

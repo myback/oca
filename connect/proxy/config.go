@@ -9,12 +9,12 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/api/watch"
-	"github.com/hashicorp/consul/connect"
-	"github.com/hashicorp/consul/ipaddr"
-	"github.com/hashicorp/consul/lib"
 	"github.com/hashicorp/go-hclog"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/api/watch"
+	"github.com/myback/oca/connect"
+	"github.com/myback/oca/ipaddr"
+	"github.com/myback/oca/lib"
 )
 
 // Config is the publicly configurable state for an entire proxy instance. It's

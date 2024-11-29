@@ -9,14 +9,14 @@ import (
 	"github.com/hashicorp/consul-net-rpc/net/rpc"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/agent/grpc-external/limiter"
-	"github.com/hashicorp/consul/agent/hcp"
-	"github.com/hashicorp/consul/agent/pool"
-	"github.com/hashicorp/consul/agent/router"
-	"github.com/hashicorp/consul/agent/rpc/middleware"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/agent/grpc-external/limiter"
+	"github.com/myback/oca/agent/hcp"
+	"github.com/myback/oca/agent/pool"
+	"github.com/myback/oca/agent/router"
+	"github.com/myback/oca/agent/rpc/middleware"
+	"github.com/myback/oca/agent/token"
+	"github.com/myback/oca/tlsutil"
 )
 
 type Deps struct {

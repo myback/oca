@@ -13,12 +13,12 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/proto/private/prototest"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/proto/private/prototest"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/testrpc"
 )
 
 func Test_verifyServerCertMatchesURI(t *testing.T) {

@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/consul/command/cli"
-	"github.com/hashicorp/consul/command/flags"
-	troubleshoot "github.com/hashicorp/consul/troubleshoot/proxy"
+	"github.com/myback/oca/command/cli"
+	"github.com/myback/oca/command/flags"
+	troubleshoot "github.com/myback/oca/troubleshoot/proxy"
 )
 
 func New(ui cli.Ui) *cmd {

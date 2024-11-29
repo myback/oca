@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/discoverychain"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/configentry"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul/discoverychain"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto/private/pbpeering"
 )
 
 func TestConfigSnapshotMeshGateway(t testing.T, variant string, nsFn func(ns *structs.NodeService), extraUpdates []UpdateEvent) *ConfigSnapshot {

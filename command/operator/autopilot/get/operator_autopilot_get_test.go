@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/testrpc"
 
-	"github.com/hashicorp/consul/agent"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
 )
 
 func TestOperatorAutopilotGetConfigCommand_noTabs(t *testing.T) {

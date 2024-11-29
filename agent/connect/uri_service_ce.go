@@ -9,7 +9,7 @@ package connect
 import (
 	"strings"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/myback/oca/acl"
 )
 
 // GetEnterpriseMeta will synthesize an EnterpriseMeta struct from the SpiffeIDService.

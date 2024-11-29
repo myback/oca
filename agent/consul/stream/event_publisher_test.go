@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/proto/private/pbsubscribe"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 type intTopic int

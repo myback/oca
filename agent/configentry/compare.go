@@ -3,7 +3,7 @@ package configentry
 import (
 	"sort"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/structs"
 )
 
 func SortSlice(configs []structs.ConfigEntry) {

@@ -16,12 +16,12 @@ import (
 	"golang.org/x/sync/singleflight"
 	"golang.org/x/time/rate"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/structs/aclfilter"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/logging"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/structs/aclfilter"
+	"github.com/myback/oca/agent/token"
+	"github.com/myback/oca/logging"
 )
 
 var ACLCounters = []prometheus.CounterDefinition{

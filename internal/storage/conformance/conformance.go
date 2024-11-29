@@ -15,10 +15,10 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"github.com/hashicorp/consul/internal/storage"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/proto/private/prototest"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/internal/storage"
+	"github.com/myback/oca/proto-public/pbresource"
+	"github.com/myback/oca/proto/private/prototest"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 type TestOptions struct {

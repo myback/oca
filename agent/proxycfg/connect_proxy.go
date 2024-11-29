@@ -13,13 +13,13 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/acl"
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/leafcert"
-	"github.com/hashicorp/consul/agent/proxycfg/internal/watch"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	"github.com/myback/oca/acl"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/leafcert"
+	"github.com/myback/oca/agent/proxycfg/internal/watch"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/proto/private/pbpeering"
 )
 
 type handlerConnectProxy struct {

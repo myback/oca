@@ -9,8 +9,8 @@ package consul
 import (
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/structs"
 )
 
 // EnterpriseACLResolverDelegate stub

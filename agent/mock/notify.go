@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/structs"
 )
 
 type Notify struct {

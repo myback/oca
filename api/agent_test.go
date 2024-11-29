@@ -22,8 +22,8 @@ import (
 
 	"github.com/hashicorp/serf/serf"
 
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 func TestAPI_AgentSelf(t *testing.T) {

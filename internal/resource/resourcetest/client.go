@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/internal/resource"
+	"github.com/myback/oca/proto-public/pbresource"
+	"github.com/myback/oca/sdk/testutil/retry"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 	"google.golang.org/grpc/codes"

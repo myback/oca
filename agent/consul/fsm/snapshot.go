@@ -13,9 +13,9 @@ import (
 	"github.com/hashicorp/raft"
 
 	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/structs"
-	raftstorage "github.com/hashicorp/consul/internal/storage/raft"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/structs"
+	raftstorage "github.com/myback/oca/internal/storage/raft"
 )
 
 var cePersister, entPersister persister

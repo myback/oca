@@ -1,9 +1,9 @@
 package workloadhealth
 
 import (
-	"github.com/hashicorp/consul/internal/catalog/internal/controllers/nodehealth"
-	pbcatalog "github.com/hashicorp/consul/proto-public/pbcatalog/v1alpha1"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/myback/oca/internal/catalog/internal/controllers/nodehealth"
+	pbcatalog "github.com/myback/oca/proto-public/pbcatalog/v1alpha1"
+	"github.com/myback/oca/proto-public/pbresource"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/myback/oca/api"
 )
 
 func TestConnectProxyConfig_ToAPI(t *testing.T) {

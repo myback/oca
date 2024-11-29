@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/myback/oca/acl"
 )
 
 var enterpriseMetaField = "EnterpriseMeta"

@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
 )
 
 func TestMonitorCommand_exitsOnSignalBeforeLinesArrive(t *testing.T) {

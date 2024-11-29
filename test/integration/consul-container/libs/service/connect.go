@@ -16,10 +16,10 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/myback/oca/api"
 
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	"github.com/myback/oca/test/integration/consul-container/libs/cluster"
+	"github.com/myback/oca/test/integration/consul-container/libs/utils"
 )
 
 // ConnectContainer

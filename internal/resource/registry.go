@@ -10,8 +10,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/proto-public/pbresource"
 )
 
 var (

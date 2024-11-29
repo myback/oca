@@ -18,9 +18,9 @@ import (
 	"github.com/mitchellh/go-testing-interface"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/sdk/freeport"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/sdk/freeport"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 // KeyTestCases is a list of the important CA key types that we should test

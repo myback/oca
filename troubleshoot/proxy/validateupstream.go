@@ -4,10 +4,10 @@
 package troubleshoot
 
 import (
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/envoyextensions/extensioncommon"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/troubleshoot/validate"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/envoyextensions/extensioncommon"
+	"github.com/myback/oca/envoyextensions/xdscommon"
+	"github.com/myback/oca/troubleshoot/validate"
 
 	envoy_admin_v3 "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
 	envoy_cluster_v3 "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"

@@ -14,13 +14,13 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto-public/pbconnectca"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/consul/stream"
+	external "github.com/myback/oca/agent/grpc-external"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto-public/pbconnectca"
 )
 
 // WatchRoots provides a stream on which you can receive the list of active

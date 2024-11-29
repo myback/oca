@@ -18,14 +18,14 @@ import (
 	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
 	"github.com/hashicorp/consul-net-rpc/net/rpc"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/authmethod/kubeauth"
-	"github.com/hashicorp/consul/agent/consul/authmethod/testauth"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/structs/aclfilter"
-	"github.com/hashicorp/consul/internal/go-sso/oidcauth/oidcauthtest"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/consul/authmethod/kubeauth"
+	"github.com/myback/oca/agent/consul/authmethod/testauth"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/structs/aclfilter"
+	"github.com/myback/oca/internal/go-sso/oidcauth/oidcauthtest"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 func TestACLEndpoint_BootstrapTokens(t *testing.T) {

@@ -10,11 +10,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/submatview"
-	"github.com/hashicorp/consul/proto/private/pbservice"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
 	"github.com/hashicorp/go-bexpr"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/submatview"
+	"github.com/myback/oca/proto/private/pbservice"
+	"github.com/myback/oca/proto/private/pbsubscribe"
 )
 
 func NewMaterializerRequest(srvReq structs.ServiceSpecificRequest) func(index uint64) *pbsubscribe.SubscribeRequest {

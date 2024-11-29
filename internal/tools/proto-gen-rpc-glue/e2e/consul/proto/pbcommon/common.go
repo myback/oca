@@ -6,7 +6,7 @@ package pbcommon
 import (
 	"time"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/structs"
 )
 
 // IsRead is always true for QueryOption

@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestAgent_ReloadConfig_Reporting(t *testing.T) {

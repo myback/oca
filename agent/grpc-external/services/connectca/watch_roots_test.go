@@ -17,14 +17,14 @@ import (
 
 	"github.com/hashicorp/go-uuid"
 
-	"github.com/hashicorp/consul/acl"
-	resolver "github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/connect"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/grpc-external/testutils"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto-public/pbconnectca"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/acl"
+	resolver "github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/agent/connect"
+	external "github.com/myback/oca/agent/grpc-external"
+	"github.com/myback/oca/agent/grpc-external/testutils"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto-public/pbconnectca"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 const testACLToken = "acl-token"

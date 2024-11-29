@@ -7,9 +7,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/sdk/testutil"
 	"github.com/hashicorp/raft"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/sdk/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

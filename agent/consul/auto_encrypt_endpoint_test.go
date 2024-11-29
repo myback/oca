@@ -16,10 +16,10 @@ import (
 
 	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/testrpc"
+	"github.com/myback/oca/tlsutil"
 )
 
 func TestAutoEncryptSign(t *testing.T) {

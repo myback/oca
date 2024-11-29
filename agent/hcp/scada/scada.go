@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/hashicorp/consul/agent/hcp/config"
 	"github.com/hashicorp/go-hclog"
 	libscada "github.com/hashicorp/hcp-scada-provider"
 	"github.com/hashicorp/hcp-scada-provider/capability"
 	"github.com/hashicorp/hcp-sdk-go/resource"
+	"github.com/myback/oca/agent/hcp/config"
 )
 
 // Provider is the interface used in the rest of Consul core when using SCADA, it is aliased here to the same interface

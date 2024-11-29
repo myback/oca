@@ -4,8 +4,8 @@
 package router
 
 import (
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/agent/metadata"
+	"github.com/myback/oca/types"
 )
 
 // ServerTracker is called when Router is notified of a server being added or

@@ -19,13 +19,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"gotest.tools/v3/assert"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/connect/ca"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/connect/ca"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/token"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/sdk/testutil/retry"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestConnectCA_ConfigurationSet_ChangeKeyConfig_Primary(t *testing.T) {

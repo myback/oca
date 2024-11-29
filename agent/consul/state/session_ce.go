@@ -12,9 +12,9 @@ import (
 
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
 )
 
 func sessionIndexer() indexerSingleWithPrefix[Query, *structs.Session, any] {

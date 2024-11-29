@@ -11,12 +11,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	svctest "github.com/hashicorp/consul/agent/grpc-external/services/resource/testing"
-	"github.com/hashicorp/consul/internal/controller"
-	"github.com/hashicorp/consul/internal/resource/demo"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/proto/private/prototest"
-	"github.com/hashicorp/consul/sdk/testutil"
+	svctest "github.com/myback/oca/agent/grpc-external/services/resource/testing"
+	"github.com/myback/oca/internal/controller"
+	"github.com/myback/oca/internal/resource/demo"
+	"github.com/myback/oca/proto-public/pbresource"
+	"github.com/myback/oca/proto/private/prototest"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 func TestController_API(t *testing.T) {

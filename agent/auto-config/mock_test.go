@@ -12,15 +12,15 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/hashicorp/consul/agent/cache"
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/leafcert"
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/proto/private/pbautoconf"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/agent/cache"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/leafcert"
+	"github.com/myback/oca/agent/metadata"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/token"
+	"github.com/myback/oca/proto/private/pbautoconf"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 type mockDirectRPC struct {

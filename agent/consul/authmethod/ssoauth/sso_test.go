@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/square/go-jose.v2/jwt"
 
-	"github.com/hashicorp/consul/agent/consul/authmethod"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/go-sso/oidcauth/oidcauthtest"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/agent/consul/authmethod"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/internal/go-sso/oidcauth/oidcauthtest"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 func TestJWT_NewValidator(t *testing.T) {

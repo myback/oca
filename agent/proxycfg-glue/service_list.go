@@ -7,14 +7,14 @@ import (
 	"context"
 	"sort"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/submatview"
-	"github.com/hashicorp/consul/proto/private/pbcommon"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/cache"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/proxycfg"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/submatview"
+	"github.com/myback/oca/proto/private/pbcommon"
+	"github.com/myback/oca/proto/private/pbsubscribe"
 )
 
 // CacheServiceList satisfies the proxycfg.ServiceList interface by sourcing

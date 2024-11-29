@@ -7,10 +7,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib"
 )
 
 // caChangeJitterWindow is the time over which we spread each round of retries

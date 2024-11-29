@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib"
 )
 
 // nodeSorter takes a list of nodes and a parallel vector of distances and

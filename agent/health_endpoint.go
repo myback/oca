@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
 )
 
 const (

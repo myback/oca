@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/lib"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/lib"
 )
 
 // Notify registers a desire to be updated about changes to a cache result.

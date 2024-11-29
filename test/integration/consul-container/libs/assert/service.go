@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	libservice "github.com/hashicorp/consul/test/integration/consul-container/libs/service"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/sdk/testutil/retry"
+	libservice "github.com/myback/oca/test/integration/consul-container/libs/service"
 )
 
 const (

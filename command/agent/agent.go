@@ -19,16 +19,16 @@ import (
 	"github.com/hashicorp/go-hclog"
 	mcli "github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/config"
-	hcpbootstrap "github.com/hashicorp/consul/agent/hcp/bootstrap"
-	hcpclient "github.com/hashicorp/consul/agent/hcp/client"
-	"github.com/hashicorp/consul/command/cli"
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/logging"
-	"github.com/hashicorp/consul/service_os"
-	consulversion "github.com/hashicorp/consul/version"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/agent/config"
+	hcpbootstrap "github.com/myback/oca/agent/hcp/bootstrap"
+	hcpclient "github.com/myback/oca/agent/hcp/client"
+	"github.com/myback/oca/command/cli"
+	"github.com/myback/oca/command/flags"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/logging"
+	"github.com/myback/oca/service_os"
+	consulversion "github.com/myback/oca/version"
 )
 
 func New(ui cli.Ui) *cmd {

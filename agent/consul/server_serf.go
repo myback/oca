@@ -17,13 +17,13 @@ import (
 	"github.com/hashicorp/raft"
 	"github.com/hashicorp/serf/serf"
 
-	"github.com/hashicorp/consul/agent/consul/wanfed"
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
-	libserf "github.com/hashicorp/consul/lib/serf"
-	"github.com/hashicorp/consul/logging"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/agent/consul/wanfed"
+	"github.com/myback/oca/agent/metadata"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib"
+	libserf "github.com/myback/oca/lib/serf"
+	"github.com/myback/oca/logging"
+	"github.com/myback/oca/types"
 )
 
 const (

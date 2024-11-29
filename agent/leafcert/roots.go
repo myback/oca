@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/structs"
 )
 
 // rootWatcher helps let multiple requests for leaf certs to coordinate sharing

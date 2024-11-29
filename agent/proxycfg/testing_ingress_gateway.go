@@ -9,12 +9,12 @@ import (
 	"github.com/mitchellh/go-testing-interface"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/discoverychain"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/configentry"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul/discoverychain"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/types"
 )
 
 func TestConfigSnapshotIngressGateway(

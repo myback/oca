@@ -4,10 +4,10 @@ package proxycfg
 
 import (
 	"context"
-	"github.com/hashicorp/consul/agent/structs"
-	xds "github.com/hashicorp/consul/agent/xds/config"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/agent/structs"
+	xds "github.com/myback/oca/agent/xds/config"
+	"github.com/myback/oca/proto/private/pbpeering"
+	"github.com/myback/oca/types"
 	"time"
 )
 

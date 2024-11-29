@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/cache"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/structs"
 )
 
 // TODO(rb/intentions): this should move back into the agent endpoint since

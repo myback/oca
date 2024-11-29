@@ -9,9 +9,9 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
+	"github.com/myback/oca/envoyextensions/xdscommon"
 
-	"github.com/hashicorp/consul/agent/proxycfg"
+	"github.com/myback/oca/agent/proxycfg"
 )
 
 // ResourceGenerator is associated with a single gRPC stream and creates xDS

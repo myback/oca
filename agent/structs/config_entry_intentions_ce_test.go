@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 func TestEnterprise_ServiceIntentionsConfigEntry(t *testing.T) {

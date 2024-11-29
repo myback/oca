@@ -6,8 +6,8 @@ package structs
 import (
 	"fmt"
 
-	"github.com/hashicorp/consul/acl"
 	"github.com/mitchellh/go-testing-interface"
+	"github.com/myback/oca/acl"
 )
 
 // TestRegisterRequest returns a RegisterRequest for registering a typical service.

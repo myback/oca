@@ -7,8 +7,8 @@
 package proxycfg
 
 import (
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/structs"
 )
 
 func UpstreamIDString(typ, dc, name string, _ *acl.EnterpriseMeta, peerName string) string {

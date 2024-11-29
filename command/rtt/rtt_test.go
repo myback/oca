@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/testrpc"
 
 	"github.com/hashicorp/serf/coordinate"
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 func TestRTTCommand_noTabs(t *testing.T) {

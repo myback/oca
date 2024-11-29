@@ -16,11 +16,11 @@ import (
 
 	"github.com/armon/go-metrics"
 
-	"github.com/hashicorp/consul/agent/grpc-internal/balancer"
-	agentmiddleware "github.com/hashicorp/consul/agent/grpc-middleware"
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/agent/pool"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/myback/oca/agent/grpc-internal/balancer"
+	agentmiddleware "github.com/myback/oca/agent/grpc-middleware"
+	"github.com/myback/oca/agent/metadata"
+	"github.com/myback/oca/agent/pool"
+	"github.com/myback/oca/tlsutil"
 )
 
 // grpcServiceConfig is provided as the default service config.

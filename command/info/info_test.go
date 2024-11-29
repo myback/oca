@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
 )
 
 func TestInfoCommand_noTabs(t *testing.T) {

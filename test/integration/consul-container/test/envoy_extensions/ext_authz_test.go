@@ -14,13 +14,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	libassert "github.com/hashicorp/consul/test/integration/consul-container/libs/assert"
-	libcluster "github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	libservice "github.com/hashicorp/consul/test/integration/consul-container/libs/service"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/topology"
 	"github.com/hashicorp/go-cleanhttp"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/sdk/testutil/retry"
+	libassert "github.com/myback/oca/test/integration/consul-container/libs/assert"
+	libcluster "github.com/myback/oca/test/integration/consul-container/libs/cluster"
+	libservice "github.com/myback/oca/test/integration/consul-container/libs/service"
+	"github.com/myback/oca/test/integration/consul-container/libs/topology"
 )
 
 // TestExtAuthzLocal Summary

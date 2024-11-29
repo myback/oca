@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/consul/command/acl/role"
-	"github.com/hashicorp/consul/command/flags"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/command/acl/role"
+	"github.com/myback/oca/command/flags"
 )
 
 func New(ui cli.Ui) *cmd {

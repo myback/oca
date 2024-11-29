@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/testrpc"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/structs"
 )
 
 func TestKVSEndpoint_PUT_GET_DELETE(t *testing.T) {

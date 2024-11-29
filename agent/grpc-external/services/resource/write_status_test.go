@@ -14,10 +14,10 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/demo"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/internal/resource"
+	"github.com/myback/oca/internal/resource/demo"
+	"github.com/myback/oca/proto-public/pbresource"
 )
 
 func TestWriteStatus_ACL(t *testing.T) {

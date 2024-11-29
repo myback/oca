@@ -11,13 +11,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	libassert "github.com/hashicorp/consul/test/integration/consul-container/libs/assert"
-	libservice "github.com/hashicorp/consul/test/integration/consul-container/libs/service"
-	libtopology "github.com/hashicorp/consul/test/integration/consul-container/libs/topology"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
-	"github.com/hashicorp/consul/test/integration/consul-container/test/upgrade"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/sdk/testutil/retry"
+	libassert "github.com/myback/oca/test/integration/consul-container/libs/assert"
+	libservice "github.com/myback/oca/test/integration/consul-container/libs/service"
+	libtopology "github.com/myback/oca/test/integration/consul-container/libs/topology"
+	"github.com/myback/oca/test/integration/consul-container/libs/utils"
+	"github.com/myback/oca/test/integration/consul-container/test/upgrade"
 )
 
 func TestPeering_Basic(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/connect/proxy"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/connect/proxy"
 	"github.com/stretchr/testify/require"
 )
 

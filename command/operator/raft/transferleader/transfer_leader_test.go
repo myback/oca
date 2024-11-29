@@ -4,8 +4,8 @@
 package transferleader
 
 import (
-	"github.com/hashicorp/consul/agent"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
 	"strings"
 	"testing"
 )

@@ -7,7 +7,7 @@
 package structs
 
 import (
-	"github.com/hashicorp/consul/acl"
+	"github.com/myback/oca/acl"
 )
 
 func (us *Upstream) GetEnterpriseMeta() *acl.EnterpriseMeta {

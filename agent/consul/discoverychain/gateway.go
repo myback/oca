@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/configentry"
+	"github.com/myback/oca/agent/structs"
 )
 
 // GatewayChainSynthesizer is used to synthesize a discovery chain for a

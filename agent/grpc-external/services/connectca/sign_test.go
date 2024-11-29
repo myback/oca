@@ -16,12 +16,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/grpc-external/testutils"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto-public/pbconnectca"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/grpc-external/testutils"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto-public/pbconnectca"
 )
 
 func TestSign_ConnectDisabled(t *testing.T) {

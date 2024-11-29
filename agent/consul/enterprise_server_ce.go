@@ -15,9 +15,9 @@ import (
 	"github.com/hashicorp/go-version"
 	"github.com/hashicorp/serf/serf"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/pool"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/pool"
+	"github.com/myback/oca/agent/structs"
 )
 
 var (

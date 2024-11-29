@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 func createTestLock(t *testing.T, c *Client, key string) (*Lock, *Session) {

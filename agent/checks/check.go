@@ -21,14 +21,14 @@ import (
 
 	http2 "golang.org/x/net/http2"
 
-	"github.com/hashicorp/consul/agent/structs"
 	"github.com/hashicorp/go-hclog"
+	"github.com/myback/oca/agent/structs"
 
 	"github.com/armon/circbuf"
-	"github.com/hashicorp/consul/agent/exec"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib"
 	"github.com/hashicorp/go-cleanhttp"
+	"github.com/myback/oca/agent/exec"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/lib"
 )
 
 const (

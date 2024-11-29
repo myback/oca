@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/sdk/testutil"
 	"github.com/hashicorp/memberlist"
+	"github.com/myback/oca/sdk/testutil"
 	"github.com/stretchr/testify/require"
 )
 

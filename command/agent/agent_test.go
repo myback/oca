@@ -12,13 +12,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/command/cli"
 	mcli "github.com/mitchellh/cli"
+	"github.com/myback/oca/command/cli"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/sdk/testutil/retry"
+	"github.com/myback/oca/testrpc"
 )
 
 // TestConfigFail should test command line flags that lead to an immediate error.

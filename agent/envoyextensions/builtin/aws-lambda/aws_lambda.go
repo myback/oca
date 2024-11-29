@@ -20,9 +20,9 @@ import (
 	"github.com/mitchellh/mapstructure"
 	pstruct "google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/envoyextensions/extensioncommon"
 	"github.com/hashicorp/go-multierror"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/envoyextensions/extensioncommon"
 )
 
 var _ extensioncommon.BasicExtension = (*awsLambda)(nil)

@@ -6,8 +6,8 @@ package proxycfg
 import (
 	"github.com/mitchellh/go-testing-interface"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
 )
 
 func TestConfigSnapshotTerminatingGateway(t testing.T, populateServices bool, nsFn func(ns *structs.NodeService), extraUpdates []UpdateEvent) *ConfigSnapshot {

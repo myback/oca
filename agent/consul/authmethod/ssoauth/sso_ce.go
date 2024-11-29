@@ -9,8 +9,8 @@ package ssoauth
 import (
 	"fmt"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/internal/go-sso/oidcauth"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/internal/go-sso/oidcauth"
 )
 
 func validateType(typ string) error {

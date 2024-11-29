@@ -11,8 +11,8 @@ import (
 	"github.com/armon/go-metrics"
 	"github.com/armon/go-metrics/prometheus"
 
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/structs"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/structs"
 )
 
 var CatalogCounters = []prometheus.CounterDefinition{

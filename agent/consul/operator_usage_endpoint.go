@@ -4,10 +4,10 @@
 package consul
 
 import (
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/structs"
 	"github.com/hashicorp/go-memdb"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/structs"
 )
 
 // Usage returns counts for service usage within catalog.

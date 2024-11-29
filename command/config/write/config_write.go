@@ -13,11 +13,11 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/config"
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/command/helpers"
-	"github.com/hashicorp/consul/lib/decode"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/command/config"
+	"github.com/myback/oca/command/flags"
+	"github.com/myback/oca/command/helpers"
+	"github.com/myback/oca/lib/decode"
 )
 
 func New(ui cli.Ui) *cmd {

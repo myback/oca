@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/consul/api"
 	"github.com/hashicorp/go-sockaddr/template"
+	"github.com/myback/oca/api"
 )
 
 const defaultGatewayPort int = 8443

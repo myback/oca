@@ -14,13 +14,13 @@ import (
 	"github.com/hashicorp/serf/serf"
 	"golang.org/x/time/rate"
 
-	"github.com/hashicorp/consul/agent/checks"
-	consulrate "github.com/hashicorp/consul/agent/consul/rate"
-	"github.com/hashicorp/consul/agent/structs"
-	libserf "github.com/hashicorp/consul/lib/serf"
-	"github.com/hashicorp/consul/tlsutil"
-	"github.com/hashicorp/consul/types"
-	"github.com/hashicorp/consul/version"
+	"github.com/myback/oca/agent/checks"
+	consulrate "github.com/myback/oca/agent/consul/rate"
+	"github.com/myback/oca/agent/structs"
+	libserf "github.com/myback/oca/lib/serf"
+	"github.com/myback/oca/tlsutil"
+	"github.com/myback/oca/types"
+	"github.com/myback/oca/version"
 )
 
 const (

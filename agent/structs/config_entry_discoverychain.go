@@ -19,10 +19,10 @@ import (
 	"github.com/mitchellh/copystructure"
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/lib/maps"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/lib/maps"
 )
 
 const (

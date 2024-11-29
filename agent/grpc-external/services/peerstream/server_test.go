@@ -7,9 +7,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/consul/proto/private/pbpeering"
-	"github.com/hashicorp/consul/proto/private/pbpeerstream"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/proto/private/pbpeering"
+	"github.com/myback/oca/proto/private/pbpeerstream"
+	"github.com/myback/oca/sdk/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -13,12 +13,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/exec"
-	"github.com/hashicorp/consul/api"
-	consulwatch "github.com/hashicorp/consul/api/watch"
-	"github.com/hashicorp/consul/command/flags"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/agent/exec"
+	"github.com/myback/oca/api"
+	consulwatch "github.com/myback/oca/api/watch"
+	"github.com/myback/oca/command/flags"
 )
 
 func New(ui cli.Ui, shutdownCh <-chan struct{}) *cmd {

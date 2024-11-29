@@ -1,9 +1,9 @@
 package state
 
 import (
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/structs"
 	"github.com/hashicorp/go-memdb"
+	"github.com/myback/oca/agent/configentry"
+	"github.com/myback/oca/agent/structs"
 )
 
 // GetSamenessGroup returns a SamenessGroupConfigEntry from the state

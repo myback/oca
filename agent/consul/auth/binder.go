@@ -9,10 +9,10 @@ import (
 	"github.com/hashicorp/go-bexpr"
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/authmethod"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib/template"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/consul/authmethod"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib/template"
 )
 
 // Binder is responsible for collecting the ACL roles, service identities, node

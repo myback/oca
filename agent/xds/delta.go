@@ -26,16 +26,16 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/hashicorp/consul/agent/envoyextensions"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/grpc-external/limiter"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/xds/extensionruntime"
-	"github.com/hashicorp/consul/envoyextensions/extensioncommon"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/logging"
-	"github.com/hashicorp/consul/version"
+	"github.com/myback/oca/agent/envoyextensions"
+	external "github.com/myback/oca/agent/grpc-external"
+	"github.com/myback/oca/agent/grpc-external/limiter"
+	"github.com/myback/oca/agent/proxycfg"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/xds/extensionruntime"
+	"github.com/myback/oca/envoyextensions/extensioncommon"
+	"github.com/myback/oca/envoyextensions/xdscommon"
+	"github.com/myback/oca/logging"
+	"github.com/myback/oca/version"
 )
 
 var errOverwhelmed = status.Error(codes.ResourceExhausted, "this server has too many xDS streams open, please try another")

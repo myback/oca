@@ -11,11 +11,11 @@ import (
 	"github.com/hashicorp/go-bexpr"
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/watch"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/structs/aclfilter"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/consul/watch"
+	"github.com/myback/oca/agent/proxycfg"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/structs/aclfilter"
 )
 
 // ServerHealthBlocking exists due to a bug with the streaming backend and its interaction with ACLs.

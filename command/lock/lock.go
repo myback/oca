@@ -14,11 +14,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/exec"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/flags"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/agent/exec"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/command/flags"
 )
 
 const (

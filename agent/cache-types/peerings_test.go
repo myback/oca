@@ -15,10 +15,10 @@ import (
 	"google.golang.org/grpc/metadata"
 	grpcstatus "google.golang.org/grpc/status"
 
-	"github.com/hashicorp/consul/agent/cache"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	"github.com/myback/oca/agent/cache"
+	external "github.com/myback/oca/agent/grpc-external"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto/private/pbpeering"
 )
 
 func TestPeerings(t *testing.T) {

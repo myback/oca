@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	discoverhcp "github.com/hashicorp/consul/agent/hcp/discover"
 	discover "github.com/hashicorp/go-discover"
 	discoverk8s "github.com/hashicorp/go-discover/provider/k8s"
 	"github.com/hashicorp/go-hclog"
+	discoverhcp "github.com/myback/oca/agent/hcp/discover"
 
-	"github.com/hashicorp/consul/lib"
+	"github.com/myback/oca/lib"
 )
 
 func (a *Agent) retryJoinLAN() {

@@ -10,8 +10,8 @@ import (
 
 	memdb "github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/structs"
 )
 
 const (

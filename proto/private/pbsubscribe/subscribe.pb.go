@@ -19,10 +19,10 @@
 package pbsubscribe
 
 import (
-	_ "github.com/hashicorp/consul/proto-public/annotations/ratelimit"
-	pbcommon "github.com/hashicorp/consul/proto/private/pbcommon"
-	pbconfigentry "github.com/hashicorp/consul/proto/private/pbconfigentry"
-	pbservice "github.com/hashicorp/consul/proto/private/pbservice"
+	_ "github.com/myback/oca/proto-public/annotations/ratelimit"
+	pbcommon "github.com/myback/oca/proto/private/pbcommon"
+	pbconfigentry "github.com/myback/oca/proto/private/pbconfigentry"
+	pbservice "github.com/myback/oca/proto/private/pbservice"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

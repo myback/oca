@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/testrpc"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/structs"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/agent/structs"
 )
 
 func TestOperatorAutopilotSetConfigCommand_noTabs(t *testing.T) {

@@ -23,9 +23,9 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/api"
-	cmn "github.com/hashicorp/consul/envoyextensions/extensioncommon"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/api"
+	cmn "github.com/myback/oca/envoyextensions/extensioncommon"
 )
 
 const (

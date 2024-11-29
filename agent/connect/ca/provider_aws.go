@@ -19,9 +19,9 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib"
 )
 
 const (

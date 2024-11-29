@@ -20,12 +20,12 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/agent/connect"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
-	"github.com/hashicorp/consul/proto/private/pbpeerstream"
+	"github.com/myback/oca/agent/connect"
+	external "github.com/myback/oca/agent/grpc-external"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/proto/private/pbpeering"
+	"github.com/myback/oca/proto/private/pbpeerstream"
 )
 
 type BidirectionalStream interface {

@@ -28,17 +28,17 @@ import (
 
 	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/blockingquery"
-	"github.com/hashicorp/consul/agent/consul/rate"
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/consul/wanfed"
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/agent/pool"
-	"github.com/hashicorp/consul/agent/rpc/middleware"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/logging"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/blockingquery"
+	"github.com/myback/oca/agent/consul/rate"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/consul/wanfed"
+	"github.com/myback/oca/agent/metadata"
+	"github.com/myback/oca/agent/pool"
+	"github.com/myback/oca/agent/rpc/middleware"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/logging"
 )
 
 var RPCCounters = []prometheus.CounterDefinition{

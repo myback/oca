@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/structs"
 )
 
 func TestStructs_CAConfiguration_MsgpackEncodeDecode(t *testing.T) {

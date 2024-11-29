@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/hashicorp/consul/version"
+	"github.com/myback/oca/version"
 )
 
 var (

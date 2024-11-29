@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/types"
 )
 
 type CheckTypes []*CheckType

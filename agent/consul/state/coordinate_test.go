@@ -12,9 +12,9 @@ import (
 	"github.com/hashicorp/serf/coordinate"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 // TODO(partitions): test partitioned nodes here

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
 	"github.com/mitchellh/mapstructure"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/structs"
 )
 
 func ParseConsulCAConfig(raw map[string]interface{}) (*structs.ConsulCAProviderConfig, error) {

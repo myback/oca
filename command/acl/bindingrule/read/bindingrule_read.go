@@ -10,9 +10,9 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/command/acl"
-	"github.com/hashicorp/consul/command/acl/bindingrule"
-	"github.com/hashicorp/consul/command/flags"
+	"github.com/myback/oca/command/acl"
+	"github.com/myback/oca/command/acl/bindingrule"
+	"github.com/myback/oca/command/flags"
 )
 
 func New(ui cli.Ui) *cmd {

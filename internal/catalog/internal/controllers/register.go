@@ -4,10 +4,10 @@
 package controllers
 
 import (
-	"github.com/hashicorp/consul/internal/catalog/internal/controllers/endpoints"
-	"github.com/hashicorp/consul/internal/catalog/internal/controllers/nodehealth"
-	"github.com/hashicorp/consul/internal/catalog/internal/controllers/workloadhealth"
-	"github.com/hashicorp/consul/internal/controller"
+	"github.com/myback/oca/internal/catalog/internal/controllers/endpoints"
+	"github.com/myback/oca/internal/catalog/internal/controllers/nodehealth"
+	"github.com/myback/oca/internal/catalog/internal/controllers/workloadhealth"
+	"github.com/myback/oca/internal/controller"
 )
 
 type Dependencies struct {

@@ -15,16 +15,16 @@ import (
 
 	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/internal/storage"
-	"github.com/hashicorp/consul/lib/stringslice"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
-	"github.com/hashicorp/consul/proto/private/prototest"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/internal/storage"
+	"github.com/myback/oca/lib/stringslice"
+	"github.com/myback/oca/proto-public/pbresource"
+	"github.com/myback/oca/proto/private/pbpeering"
+	"github.com/myback/oca/proto/private/prototest"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 func TestFSM_SnapshotRestore_CE(t *testing.T) {

@@ -13,13 +13,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/sdk/testutil/retry"
 )
 
 // Test that after an initial signing, new CA roots (new ID) will
@@ -312,7 +312,7 @@ func TestManager_CSRRateLimiting(t *testing.T) {
 		// Then be rate limited again on several further calls
 		consul.ErrRateLimited, // inc
 		consul.ErrRateLimited, // inc
-	// Then fine after that
+		// Then fine after that
 	)
 
 	req := &ConnectCALeafRequest{

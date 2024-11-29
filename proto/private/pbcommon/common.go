@@ -6,7 +6,7 @@ package pbcommon
 import (
 	"time"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/structs"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
 )
 

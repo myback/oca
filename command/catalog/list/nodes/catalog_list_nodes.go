@@ -8,12 +8,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hashicorp/consul/command/catalog"
+	"github.com/myback/oca/command/catalog"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/command/helpers"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/command/flags"
+	"github.com/myback/oca/command/helpers"
 	"github.com/ryanuber/columnize"
 )
 

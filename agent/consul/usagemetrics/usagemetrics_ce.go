@@ -11,8 +11,8 @@ import (
 
 	"github.com/hashicorp/serf/serf"
 
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/structs"
 )
 
 func (u *UsageMetricsReporter) emitNodeUsage(nodeUsage state.NodeUsage) {

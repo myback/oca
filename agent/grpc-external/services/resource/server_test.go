@@ -15,15 +15,15 @@ import (
 
 	"github.com/hashicorp/go-uuid"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/grpc-external/testutils"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/storage/inmem"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	pbdemov2 "github.com/hashicorp/consul/proto/private/pbdemo/v2"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/agent/grpc-external/testutils"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/internal/resource"
+	"github.com/myback/oca/internal/storage/inmem"
+	"github.com/myback/oca/proto-public/pbresource"
+	pbdemov2 "github.com/myback/oca/proto/private/pbdemo/v2"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 func randomACLIdentity(t *testing.T) structs.ACLIdentity {

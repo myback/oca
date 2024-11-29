@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/api"
-	libcluster "github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	"github.com/myback/oca/api"
+	libcluster "github.com/myback/oca/test/integration/consul-container/libs/cluster"
+	"github.com/myback/oca/test/integration/consul-container/libs/utils"
 )
 
 const (

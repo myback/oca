@@ -6,7 +6,7 @@ package dns_test
 import (
 	"testing"
 
-	"github.com/hashicorp/consul/agent/dns"
+	"github.com/myback/oca/agent/dns"
 	"github.com/stretchr/testify/require"
 )
 

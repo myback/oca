@@ -8,18 +8,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/acl"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pboperator"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/myback/oca/acl"
+	external "github.com/myback/oca/agent/grpc-external"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto/private/pboperator"
+	"github.com/myback/oca/sdk/testutil/retry"
 	"google.golang.org/grpc/credentials/insecure"
 
 	"github.com/stretchr/testify/require"
 	gogrpc "google.golang.org/grpc"
 
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestOperatorBackend_TransferLeader(t *testing.T) {

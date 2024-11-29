@@ -18,8 +18,8 @@ import (
 	"golang.org/x/oauth2"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/agent/hcp/telemetry"
-	"github.com/hashicorp/consul/version"
+	"github.com/myback/oca/agent/hcp/telemetry"
+	"github.com/myback/oca/version"
 )
 
 const (

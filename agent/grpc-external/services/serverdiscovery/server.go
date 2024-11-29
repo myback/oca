@@ -8,10 +8,10 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/proto-public/pbserverdiscovery"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/proto-public/pbserverdiscovery"
 )
 
 type Server struct {

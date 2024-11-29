@@ -9,17 +9,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/types"
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/consul/agent/grpc-internal/balancer"
-	"github.com/hashicorp/consul/agent/grpc-internal/resolver"
-	"github.com/hashicorp/consul/agent/grpc-middleware/testutil/testservice"
+	"github.com/myback/oca/agent/grpc-internal/balancer"
+	"github.com/myback/oca/agent/grpc-internal/resolver"
+	"github.com/myback/oca/agent/grpc-middleware/testutil/testservice"
 )
 
 func TestHandler_PanicRecoveryInterceptor(t *testing.T) {

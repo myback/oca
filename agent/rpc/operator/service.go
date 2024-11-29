@@ -6,12 +6,12 @@ package operator
 import (
 	"context"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pboperator"
 	"github.com/hashicorp/go-hclog"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/acl/resolver"
+	external "github.com/myback/oca/agent/grpc-external"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto/private/pboperator"
 	"google.golang.org/grpc"
 )
 

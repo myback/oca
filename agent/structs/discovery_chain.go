@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/lib"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/lib"
 )
 
 // CompiledDiscoveryChain is the result from taking a set of related config

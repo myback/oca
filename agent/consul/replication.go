@@ -14,8 +14,8 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"golang.org/x/time/rate"
 
-	"github.com/hashicorp/consul/lib/retry"
-	"github.com/hashicorp/consul/logging"
+	"github.com/myback/oca/lib/retry"
+	"github.com/myback/oca/logging"
 )
 
 var ReplicationGauges = []prometheus.GaugeDefinition{

@@ -7,10 +7,10 @@ import (
 	"math"
 	"sort"
 
-	"github.com/hashicorp/consul/internal/resource"
-	pbcatalog "github.com/hashicorp/consul/proto-public/pbcatalog/v1alpha1"
-	"github.com/hashicorp/consul/proto-public/pbresource"
 	"github.com/hashicorp/go-multierror"
+	"github.com/myback/oca/internal/resource"
+	pbcatalog "github.com/myback/oca/proto-public/pbcatalog/v1alpha1"
+	"github.com/myback/oca/proto-public/pbresource"
 )
 
 const (

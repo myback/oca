@@ -8,13 +8,13 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/hashicorp/consul/acl/resolver"
-	svc "github.com/hashicorp/consul/agent/grpc-external/services/resource"
-	internal "github.com/hashicorp/consul/agent/grpc-internal"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/storage/inmem"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/myback/oca/acl/resolver"
+	svc "github.com/myback/oca/agent/grpc-external/services/resource"
+	internal "github.com/myback/oca/agent/grpc-internal"
+	"github.com/myback/oca/internal/resource"
+	"github.com/myback/oca/internal/storage/inmem"
+	"github.com/myback/oca/proto-public/pbresource"
+	"github.com/myback/oca/sdk/testutil"
 )
 
 // RunResourceService runs a Resource Service for the duration of the test and

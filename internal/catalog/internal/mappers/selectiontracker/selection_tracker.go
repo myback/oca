@@ -7,12 +7,12 @@ import (
 	"context"
 	"sync"
 
-	"github.com/hashicorp/consul/internal/controller"
-	"github.com/hashicorp/consul/internal/radix"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/lib/stringslice"
-	pbcatalog "github.com/hashicorp/consul/proto-public/pbcatalog/v1alpha1"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/myback/oca/internal/controller"
+	"github.com/myback/oca/internal/radix"
+	"github.com/myback/oca/internal/resource"
+	"github.com/myback/oca/lib/stringslice"
+	pbcatalog "github.com/myback/oca/proto-public/pbcatalog/v1alpha1"
+	"github.com/myback/oca/proto-public/pbresource"
 )
 
 type WorkloadSelectionTracker struct {

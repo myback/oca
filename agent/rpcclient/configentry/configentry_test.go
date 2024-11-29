@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/rpcclient"
+	"github.com/myback/oca/agent/rpcclient"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/submatview"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/config"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/submatview"
 )
 
 func TestClient_SamenessGroup_BackendRouting(t *testing.T) {

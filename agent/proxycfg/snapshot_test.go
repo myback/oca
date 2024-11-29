@@ -11,7 +11,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	fuzz "github.com/google/gofuzz"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	"github.com/myback/oca/proto/private/pbpeering"
 )
 
 func TestConfigSnapshot_Clone(t *testing.T) {

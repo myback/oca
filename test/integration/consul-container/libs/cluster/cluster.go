@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
 	"github.com/hashicorp/serf/serf"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/sdk/testutil/retry"
+	"github.com/myback/oca/test/integration/consul-container/libs/utils"
 
 	goretry "github.com/avast/retry-go"
 	"github.com/stretchr/testify/require"

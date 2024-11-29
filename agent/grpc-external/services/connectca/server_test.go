@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/agent/grpc-external/testutils"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto-public/pbconnectca"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/agent/grpc-external/testutils"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto-public/pbconnectca"
 )
 
 func noopForwardRPC(structs.RPCInfo, func(*grpc.ClientConn) error) (bool, error) {

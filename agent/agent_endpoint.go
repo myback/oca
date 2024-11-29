@@ -15,8 +15,8 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/version"
+	"github.com/myback/oca/envoyextensions/xdscommon"
+	"github.com/myback/oca/version"
 
 	"github.com/hashicorp/go-bexpr"
 	"github.com/hashicorp/serf/coordinate"
@@ -24,19 +24,19 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/hashicorp/consul/acl"
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/agent/debug"
-	"github.com/hashicorp/consul/agent/leafcert"
-	"github.com/hashicorp/consul/agent/structs"
-	token_store "github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/ipaddr"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/logging"
-	"github.com/hashicorp/consul/logging/monitor"
-	"github.com/hashicorp/consul/types"
+	"github.com/myback/oca/acl"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/consul"
+	"github.com/myback/oca/agent/debug"
+	"github.com/myback/oca/agent/leafcert"
+	"github.com/myback/oca/agent/structs"
+	token_store "github.com/myback/oca/agent/token"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/ipaddr"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/logging"
+	"github.com/myback/oca/logging/monitor"
+	"github.com/myback/oca/types"
 )
 
 type Self struct {

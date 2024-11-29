@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/myback/oca/api"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,12 +7,12 @@ import (
 	"context"
 	"sort"
 
-	"github.com/hashicorp/consul/internal/catalog/internal/controllers/workloadhealth"
-	"github.com/hashicorp/consul/internal/catalog/internal/types"
-	"github.com/hashicorp/consul/internal/controller"
-	"github.com/hashicorp/consul/internal/resource"
-	pbcatalog "github.com/hashicorp/consul/proto-public/pbcatalog/v1alpha1"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/myback/oca/internal/catalog/internal/controllers/workloadhealth"
+	"github.com/myback/oca/internal/catalog/internal/types"
+	"github.com/myback/oca/internal/controller"
+	"github.com/myback/oca/internal/resource"
+	pbcatalog "github.com/myback/oca/proto-public/pbcatalog/v1alpha1"
+	"github.com/myback/oca/proto-public/pbresource"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 )

@@ -8,9 +8,9 @@ import (
 	"fmt"
 
 	iamauth "github.com/hashicorp/consul-awsauth"
-	"github.com/hashicorp/consul/agent/consul/authmethod"
-	"github.com/hashicorp/consul/agent/structs"
 	"github.com/hashicorp/go-hclog"
+	"github.com/myback/oca/agent/consul/authmethod"
+	"github.com/myback/oca/agent/structs"
 )
 
 const (

@@ -29,7 +29,7 @@
 //
 // NOTE: THIS IS A QUIRK OF OPENSSL; in Connect we distribute the roots alone
 // and stable intermediates like the XC cert to the _leaf_.
-package main // import "github.com/hashicorp/consul/connect/certgen"
+package main // import "github.com/myback/oca/connect/certgen"
 
 import (
 	"flag"
@@ -39,8 +39,8 @@ import (
 
 	"github.com/mitchellh/go-testing-interface"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/structs"
 )
 
 func main() {

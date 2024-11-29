@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/structs"
 )
 
 // Recommended name for registration.

@@ -6,10 +6,10 @@ package rpcclient
 import (
 	"context"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/submatview"
 	"github.com/hashicorp/go-hclog"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/submatview"
 	"google.golang.org/grpc"
 )
 

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestLeader_SystemMetadata_CRUD(t *testing.T) {

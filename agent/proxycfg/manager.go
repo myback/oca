@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"golang.org/x/time/rate"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/tlsutil"
 )
 
 // ProxyID is a handle on a proxy service instance being tracked by Manager.

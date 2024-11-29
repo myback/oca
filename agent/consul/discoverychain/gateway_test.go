@@ -6,8 +6,8 @@ package discoverychain
 import (
 	"testing"
 
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/configentry"
+	"github.com/myback/oca/agent/structs"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,11 +6,11 @@ package proxycfgglue
 import (
 	"context"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/rpcclient/health"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/submatview"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/proxycfg"
+	"github.com/myback/oca/agent/rpcclient/health"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/agent/submatview"
 )
 
 // ClientHealth satisfies the proxycfg.Health interface by sourcing data from

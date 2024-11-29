@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/structs"
 )
 
 // testSigner implements NetRPC and handles leaf signing operations

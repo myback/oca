@@ -14,8 +14,8 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"golang.org/x/time/rate"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib/retry"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/lib/retry"
 )
 
 var StatsGauges = []prometheus.GaugeDefinition{

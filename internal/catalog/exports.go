@@ -4,12 +4,12 @@
 package catalog
 
 import (
-	"github.com/hashicorp/consul/internal/catalog/internal/controllers"
-	"github.com/hashicorp/consul/internal/catalog/internal/mappers/nodemapper"
-	"github.com/hashicorp/consul/internal/catalog/internal/mappers/selectiontracker"
-	"github.com/hashicorp/consul/internal/catalog/internal/types"
-	"github.com/hashicorp/consul/internal/controller"
-	"github.com/hashicorp/consul/internal/resource"
+	"github.com/myback/oca/internal/catalog/internal/controllers"
+	"github.com/myback/oca/internal/catalog/internal/mappers/nodemapper"
+	"github.com/myback/oca/internal/catalog/internal/mappers/selectiontracker"
+	"github.com/myback/oca/internal/catalog/internal/types"
+	"github.com/myback/oca/internal/controller"
+	"github.com/myback/oca/internal/resource"
 )
 
 var (

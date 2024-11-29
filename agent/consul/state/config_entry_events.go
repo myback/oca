@@ -6,11 +6,11 @@ package state
 import (
 	"fmt"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pbconfigentry"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto/private/pbconfigentry"
+	"github.com/myback/oca/proto/private/pbsubscribe"
 )
 
 // Adding events for a new config entry kind? Remember to update ConfigEntryFromStructs and ConfigEntryToStructs.

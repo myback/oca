@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/myback/oca/api"
 )
 
 func NodesHeader(isDetailed bool) string {

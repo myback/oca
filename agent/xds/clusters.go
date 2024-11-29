@@ -27,12 +27,12 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	config "github.com/hashicorp/consul/agent/xds/config"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/proxycfg"
+	"github.com/myback/oca/agent/structs"
+	config "github.com/myback/oca/agent/xds/config"
+	"github.com/myback/oca/envoyextensions/xdscommon"
+	"github.com/myback/oca/proto/private/pbpeering"
 )
 
 const (

@@ -9,12 +9,12 @@ package agent
 import (
 	"context"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/agent/config"
+	"github.com/myback/oca/agent/consul"
+	"github.com/myback/oca/agent/proxycfg"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/api"
 )
 
 // enterpriseAgent embeds fields that we only access in consul-enterprise builds

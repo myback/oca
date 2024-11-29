@@ -14,10 +14,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/command/kv/impexp"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/command/flags"
+	"github.com/myback/oca/command/kv/impexp"
 )
 
 func New(ui cli.Ui) *cmd {

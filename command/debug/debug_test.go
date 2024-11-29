@@ -25,9 +25,9 @@ import (
 	"gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestDebugCommand_Help_TextContainsNoTabs(t *testing.T) {

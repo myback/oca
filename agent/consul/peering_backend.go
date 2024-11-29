@@ -14,17 +14,17 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/agent/grpc-external/services/peerstream"
-	"github.com/hashicorp/consul/agent/rpc/peering"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/ipaddr"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/acl/resolver"
+	"github.com/myback/oca/agent/connect"
+	"github.com/myback/oca/agent/consul/state"
+	"github.com/myback/oca/agent/consul/stream"
+	"github.com/myback/oca/agent/grpc-external/services/peerstream"
+	"github.com/myback/oca/agent/rpc/peering"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/ipaddr"
+	"github.com/myback/oca/lib"
+	"github.com/myback/oca/proto/private/pbpeering"
 )
 
 type PeeringBackend struct {

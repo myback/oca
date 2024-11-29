@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/myback/oca/agent/cache"
+	"github.com/myback/oca/agent/structs"
 )
 
 // handleCacheEvent is used to handle event notifications from the cache for the roots

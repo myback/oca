@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/types"
 	"github.com/mitchellh/copystructure"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/types"
 )
 
 var (

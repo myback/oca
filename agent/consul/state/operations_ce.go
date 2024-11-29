@@ -9,7 +9,7 @@ package state
 import (
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/myback/oca/acl"
 )
 
 func getCompoundWithTxn(tx ReadTxn, table, index string,

@@ -12,9 +12,9 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestReadCommand_noTabs(t *testing.T) {

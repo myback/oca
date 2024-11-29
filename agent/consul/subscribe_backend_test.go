@@ -17,15 +17,15 @@ import (
 	"golang.org/x/sync/errgroup"
 	gogrpc "google.golang.org/grpc"
 
-	grpc "github.com/hashicorp/consul/agent/grpc-internal"
-	"github.com/hashicorp/consul/agent/grpc-internal/balancer"
-	"github.com/hashicorp/consul/agent/grpc-internal/resolver"
-	"github.com/hashicorp/consul/agent/router"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pbservice"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/testrpc"
+	grpc "github.com/myback/oca/agent/grpc-internal"
+	"github.com/myback/oca/agent/grpc-internal/balancer"
+	"github.com/myback/oca/agent/grpc-internal/resolver"
+	"github.com/myback/oca/agent/router"
+	"github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto/private/pbservice"
+	"github.com/myback/oca/proto/private/pbsubscribe"
+	"github.com/myback/oca/sdk/testutil"
+	"github.com/myback/oca/testrpc"
 )
 
 func TestSubscribeBackend_IntegrationWithServer_TLSEnabled(t *testing.T) {

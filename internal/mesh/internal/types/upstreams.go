@@ -4,9 +4,9 @@
 package types
 
 import (
-	"github.com/hashicorp/consul/internal/resource"
-	pbmesh "github.com/hashicorp/consul/proto-public/pbmesh/v1alpha1"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/myback/oca/internal/resource"
+	pbmesh "github.com/myback/oca/proto-public/pbmesh/v1alpha1"
+	"github.com/myback/oca/proto-public/pbresource"
 )
 
 const (

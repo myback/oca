@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/kv/impexp"
 	"github.com/mitchellh/cli"
+	"github.com/myback/oca/agent"
+	"github.com/myback/oca/api"
+	"github.com/myback/oca/command/kv/impexp"
 )
 
 func TestKVExportCommand_noTabs(t *testing.T) {

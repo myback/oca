@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/structs"
+	cachetype "github.com/myback/oca/agent/cache-types"
+	"github.com/myback/oca/agent/structs"
 )
 
 // preparedQueryCreateResponse is used to wrap the query ID.

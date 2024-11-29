@@ -13,13 +13,13 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/consul/acl"
-	resolver "github.com/hashicorp/consul/acl/resolver"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/grpc-external/testutils"
-	structs "github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto-public/pbdataplane"
-	"github.com/hashicorp/consul/version"
+	"github.com/myback/oca/acl"
+	resolver "github.com/myback/oca/acl/resolver"
+	external "github.com/myback/oca/agent/grpc-external"
+	"github.com/myback/oca/agent/grpc-external/testutils"
+	structs "github.com/myback/oca/agent/structs"
+	"github.com/myback/oca/proto-public/pbdataplane"
+	"github.com/myback/oca/version"
 )
 
 const testACLToken = "acl-token"

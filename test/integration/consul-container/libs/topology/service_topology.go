@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/consul/api"
-	libassert "github.com/hashicorp/consul/test/integration/consul-container/libs/assert"
-	libcluster "github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	libservice "github.com/hashicorp/consul/test/integration/consul-container/libs/service"
+	"github.com/myback/oca/api"
+	libassert "github.com/myback/oca/test/integration/consul-container/libs/assert"
+	libcluster "github.com/myback/oca/test/integration/consul-container/libs/cluster"
+	libservice "github.com/myback/oca/test/integration/consul-container/libs/service"
 	"github.com/stretchr/testify/require"
 )
 

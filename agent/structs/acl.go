@@ -14,12 +14,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/consul/lib/stringslice"
+	"github.com/myback/oca/lib/stringslice"
 
 	"golang.org/x/crypto/blake2b"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/lib"
+	"github.com/myback/oca/acl"
+	"github.com/myback/oca/lib"
 )
 
 type ACLMode string
