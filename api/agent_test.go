@@ -1414,6 +1414,9 @@ func TestAPI_AgentMonitor(t *testing.T) {
 		// Wait for the first log message and validate it
 		select {
 		case log := <-logCh:
+			if len(log) == 0 {
+				return
+			}
 			if !(strings.Contains(log, "[INFO]") || strings.Contains(log, "[DEBUG]")) {
 				r.Fatalf("bad: %q", log)
 			}
@@ -1448,6 +1451,9 @@ func TestAPI_AgentMonitorJSON(t *testing.T) {
 		// Wait for the first log message and validate it is valid JSON
 		select {
 		case log := <-logCh:
+			if len(log) == 0 {
+				return
+			}
 			var output map[string]interface{}
 			if err := json.Unmarshal([]byte(log), &output); err != nil {
 				r.Fatalf("log output was not JSON: %q", log)

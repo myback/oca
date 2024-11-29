@@ -6,11 +6,11 @@ package ports
 import (
 	"flag"
 	"fmt"
-	"github.com/myback/oca/troubleshoot/ports"
 	"os"
 
 	"github.com/myback/oca/command/cli"
 	"github.com/myback/oca/command/flags"
+	"github.com/myback/oca/troubleshoot/ports"
 )
 
 func New(ui cli.Ui) *cmd {

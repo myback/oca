@@ -1,5 +1,7 @@
-module github.com/hashicorp/consul
+module github.com/myback/oca
 
-go 1.13
+go 1.21
 
-require google.golang.org/protobuf v1.28.1
+toolchain go1.23.2
+
+require google.golang.org/protobuf v1.35.2

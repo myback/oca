@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/go-jose/go-jose/v3/jwt"
 	"github.com/hashicorp/go-uuid"
 	"github.com/stretchr/testify/require"
-	"gopkg.in/square/go-jose.v2/jwt"
 
 	"github.com/myback/oca/acl"
 	"github.com/myback/oca/agent/consul/authmethod/testauth"

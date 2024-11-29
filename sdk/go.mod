@@ -1,4 +1,4 @@
-module github.com/hashicorp/consul/sdk
+module github.com/myback/oca/sdk
 
 go 1.19
 

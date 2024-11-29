@@ -34,7 +34,7 @@ import (
 	"github.com/myback/oca/tlsutil"
 	"github.com/myback/oca/types"
 
-	"gopkg.in/square/go-jose.v2/jwt"
+	"github.com/go-jose/go-jose/v3/jwt"
 )
 
 type mockAutoConfigBackend struct {

@@ -488,7 +488,12 @@ func (s *ResourceGenerator) routesForAPIGateway(cfgSnap *proxycfg.ConfigSnapshot
 
 		if len(listenerRoute.VirtualHosts) > 0 {
 			// Build up the virtual hosts in a deterministic way
-			slices.SortStableFunc(listenerRoute.VirtualHosts, func(a, b *envoy_route_v3.VirtualHost) bool { return a.Name < b.Name })
+			slices.SortStableFunc(listenerRoute.VirtualHosts, func(a, b *envoy_route_v3.VirtualHost) int {
+				if a.Name < b.Name {
+					return -1
+				}
+				return 1
+			})
 			result = append(result, listenerRoute)
 		}
 	}

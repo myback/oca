@@ -119,6 +119,8 @@ func ConfigEntryToStructs(s *ConfigEntry) structs.ConfigEntry {
 	default:
 		panic(fmt.Sprintf("unable to convert ConfigEntry of kind %s to structs", s.Kind))
 	}
+
+	return nil
 }
 
 func ConfigEntryFromStructs(s structs.ConfigEntry) *ConfigEntry {
